@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/Main.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+</head>
+<body>
+      <section class="main">
+          <!--Start of Header-->
+          <input type="radio" name="model" id="open">
+          <input type="radio" name="model" id="close">
+          <label for="open"><span class="fa fa-bars" aria-hidden="true"></span></label>
+          <section class="Menu">
+              <label for="close">X</label>
+              <div class="menuLeft">
+              <div>
+                  <img src="Icons/Ring.png" alt="Ring">
+                  123-123456789
+              </div>
+              <div>
+                  <img src="Icons/Mail.png" alt="Mail">
+                  info@Itntcom
+              </div>
+              </div>
+              <div class="menuRight">
+                  <ul>
+                      <li><a href="#">My Account</a></li>
+                      <li><a href="#">Wishlist</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Checkout</a></li>
+                      <li><a href="#">Login/Register</a></li>
+                  </ul>
+              </div>
+          </section>
+          <section class="navEzafe">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Page</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+          </section>
+          <!--End of Header-->
+          <!--Start of navBar-->
+          <section class="navBar">
+              <div class="navBarLeft">
+              <h1>Hyape</h1>
+              </div>
+              <div class="navBarCenter">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Page</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+              </div>
+              <div class="navBarRight">
+                   <h1><span class="fa fa-search" aria-hidden="true"></span> CART-$0 <span class="fa fa-shopping-bag" aria-hidden="true"></span></h1>
+              </div>
+          </section>
+          <!--End of navBar-->
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <img src="Images/Banner.png" alt="Banner">
+                      <h1>
+                          Dresses <span>are</span> good <br>
+                          But our dresses are <span>best</span>
+                      </h1>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur, delectus harum iste itaque laudantium molestias necessitatibus placeat reiciendis rerum temporibus vel velit voluptatem? Hic magnam quasi quibusdam sunt tempora.
+                      </p>
+                  </div>
+                  <div class="swiper-slide"><img src="Images/Slide%202.jpg" alt="Nature"></div>
+                  <div class="swiper-slide"><img src="Images/Midnight%20moon.jpg" alt="Moon"></div>
+                  <div class="swiper-slide"><img src="Images/Dark.jpg" alt="Dark"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- Swiper JS -->
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+          <!-- Initialize Swiper -->
+          <script>
+              var swiper = new Swiper(".mySwiper", {
+                  spaceBetween: 30,
+                  pagination: {
+                      el: ".swiper-pagination",
+                      clickable: true,
+                  },
+              });
+          </script>
+          <!--End of Swiper-->
+          <!--About-->
+          <section class="about">
+              <h1>About <span>us</span> </h1>
+              <div>
+                  <span class="fa fa-sun-o" aria-hidden="true"></span>
+                  <h1>Setting</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos eaque id omnis quaerat repudiandae sit. Dicta, dolor, est et harum ipsum iusto minima omnis optio reprehenderit rerum tempora voluptate.</p>
+              </div>
+              <div>
+                  <span class="fa fa-credit-card-alt" aria-hidden="true"></span>
+                  <h1>money back</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos eaque id omnis quaerat repudiandae sit. Dicta, dolor, est et harum ipsum iusto minima omnis optio reprehenderit rerum tempora voluptate.</p>
+              </div>
+              <div>
+                  <span class="fa fa-globe" aria-hidden="true"></span>
+                  <h1>worldwide shipping</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos eaque id omnis quaerat repudiandae sit. Dicta, dolor, est et harum ipsum iusto minima omnis optio reprehenderit rerum tempora voluptate.</p>
+              </div>
+              <div>
+                  <span class="fa fa-compass" aria-hidden="true"></span>
+                  <h1>Worldwide shipping</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos eaque id omnis quaerat repudiandae sit. Dicta, dolor, est et harum ipsum iusto minima omnis optio reprehenderit rerum tempora voluptate.</p>
+              </div>
+          </section>
+          <!--New collection-->
+          <section class="new">
+              <img src="Images/tshirt-ftr.png" alt="Tshirt">
+              <h1><span>New</span> collection</h1>
+              <div class="pro">
+                   <div>
+                       <div class="greyP">
+                           <div class="icons">
+                               <div><a href="#"><img src="Icons/Heart.png" alt="Heart"></a></div>
+                               <div><a href="#"><img src="Icons/Shuffle.png" alt="Shuffle"></a></div>
+                               <div><a href="#"><img src="Icons/Clock.png" alt="Clock"></a></div>
+                           </div>
+                           <div class="buy">
+                               <div class="fa fa-shopping-cart" aria-hidden="true"><a href="#"> Add to cart</a></div>
+                           </div>
+                       </div>
+                       <h1>blue tshirt</h1>
+                       <h2>26$</h2>
+                   </div>
+                   <div>
+                       <div class="greyP">
+                           <div class="icons">
+                               <div><a href="#"><img src="Icons/Heart.png" alt="Heart"></a></div>
+                               <div><a href="#"><img src="Icons/Shuffle.png" alt="Shuffle"></a></div>
+                               <div><a href="#"><img src="Icons/Clock.png" alt="Clock"></a></div>
+                           </div>
+                           <div class="buy">
+                               <div class="fa fa-shopping-cart" aria-hidden="true"><a href="#"> Add to cart</a></div>
+                           </div>
+                       </div>
+                       <h1>black tshirt</h1>
+                       <h2>31$</h2>
+                   </div>
+                   <div>
+                       <div class="greyP">
+                           <div class="icons">
+                               <div><a href="#"><img src="Icons/Heart.png" alt="Heart"></a></div>
+                               <div><a href="#"><img src="Icons/Shuffle.png" alt="Shuffle"></a></div>
+                               <div><a href="#"><img src="Icons/Clock.png" alt="Clock"></a></div>
+                           </div>
+                           <div class="buy">
+                               <div class="fa fa-shopping-cart" aria-hidden="true"><a href="#"> Add to cart</a></div>
+                           </div>
+                       </div>
+                       <h1>yellow tshirt</h1>
+                       <h2>51$</h2>
+                   </div>
+                   <div>
+                       <div class="greyP">
+                           <div class="icons">
+                               <div><a href="#"><img src="Icons/Heart.png" alt="Heart"></a></div>
+                               <div><a href="#"><img src="Icons/Shuffle.png" alt="Shuffle"></a></div>
+                               <div><a href="#"><img src="Icons/Clock.png" alt="Clock"></a></div>
+                           </div>
+                           <div class="buy">
+                               <div class="fa fa-shopping-cart" aria-hidden="true"><a href="#"> Add to cart</a></div>
+                           </div>
+                       </div>
+                       <h1>cool lingerie</h1>
+                       <h2>21$</h2>
+                   </div>
+              </div>
+          </section>
+          <!--End of New collection -->
+          <!--Sale-->
+          <section class="Sale">
+              <div>
+                  <h1>Sale up to 40% off</h1>
+                  <h2>Don't forget to buy</h2>
+              </div>
+          </section>
+      </section>
+</body>
+</html>

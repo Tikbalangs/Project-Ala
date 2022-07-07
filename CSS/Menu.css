@@ -1,0 +1,676 @@
+/*Start of Menu*/
+@media only screen and (min-width: 1200px){
+    section.Menu{
+        width: 100%;
+        height: 50px;
+        background-color: #00a2e8;
+        display: flex;
+    }
+    section.Menu>div.menuLeft{
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: right;
+    }
+    section.Menu>div.menuLeft>div{
+        color: whitesmoke;
+        padding: 30px;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    section.Menu>div.menuLeft>div>img{
+        vertical-align: sub;
+    }
+    section.Menu>div.menuRight{
+        width: 60%;
+        height: inherit;
+    }
+    section.Menu>div.menuRight>ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.Menu>div.menuRight>ul>li{
+        line-height: 50px;
+        padding: 0px 20px;
+        list-style: none;
+        transition: all 300ms linear;
+    }
+    section.Menu>div.menuRight>ul>li>a{
+        color: whitesmoke;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    label[for=open],label[for=close]{
+        display: none;
+    }
+    input[name=model]{
+        display: none;
+    }
+    section.Menu>div.menuRight>ul>li:hover{
+        box-shadow: inset 5px 5px 20px whitesmoke;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    section.Menu{
+        width: 100%;
+        height: 50px;
+        background-color: #00a2e8;
+        display: flex;
+    }
+    section.Menu>div.menuLeft{
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: right;
+    }
+    section.Menu>div.menuLeft>div{
+        color: whitesmoke;
+        padding: 30px;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    section.Menu>div.menuLeft>div>img{
+        vertical-align: sub;
+    }
+    section.Menu>div.menuRight{
+        width: 60%;
+        height: inherit;
+    }
+    section.Menu>div.menuRight>ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.Menu>div.menuRight>ul>li{
+        line-height: 50px;
+        padding-left: 40px;
+        list-style: none;
+    }
+    section.Menu>div.menuRight>ul>li>a{
+        color: whitesmoke;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    label[for=open],label[for=close]{
+        display: none;
+    }
+    input[name=model]{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    section.Menu{
+        width: 100%;
+        height: auto;
+        background-color: #00a2e8;
+        position: absolute;
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 3;
+    }
+    section.Menu>div.menuLeft{
+        border-bottom: 3px solid rgba(245, 245, 245, 0.57);
+        text-align: center;
+    }
+    section.Menu>div.menuLeft>div{
+        color: whitesmoke;
+        padding: 20px;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    section.Menu>div.menuLeft>div>img{
+        vertical-align: sub;
+    }
+    section.Menu>div.menuRight{
+        text-align: center;
+        height: inherit;
+    }
+    section.Menu>div.menuRight>ul>li{
+        line-height: 50px;
+        list-style: none;
+        border-bottom: 1px solid rgba(245, 245, 245, 0.47);
+        transition: all 300ms linear;
+    }
+    section.Menu>div.menuRight>ul>li>a{
+        color: whitesmoke;
+        display: block;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    label[for=open],label[for=close]{
+        position: absolute;
+        font-size: 40px;
+        padding: 20px;
+        color: #00a2e8;
+    }
+    input[name=model]{
+        display: none;
+    }
+    label[for=close]{
+        color: whitesmoke;
+        position: absolute;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        font-size: 15px;
+        margin: 20px;
+        font-family: "Comic Sans MS";
+    }
+    section.Menu>div.menuRight>ul>li:hover{
+        background-color: rgba(20, 36, 255, 0.21);
+    }
+    input#open:checked ~ section.Menu{
+        left: 0;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px){
+    section.Menu{
+        width: 100%;
+        height: auto;
+        background-color: #00a2e8;
+        position: absolute;
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 3;
+    }
+    section.Menu>div.menuLeft{
+        border-bottom: 3px solid rgba(245, 245, 245, 0.57);
+        text-align: center;
+    }
+    section.Menu>div.menuLeft>div{
+        color: whitesmoke;
+        padding: 20px;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    section.Menu>div.menuLeft>div>img{
+        vertical-align: sub;
+    }
+    section.Menu>div.menuRight{
+        text-align: center;
+        height: inherit;
+    }
+    section.Menu>div.menuRight>ul>li{
+        line-height: 50px;
+        list-style: none;
+        border-bottom: 1px solid rgba(245, 245, 245, 0.47);
+        transition: all 300ms linear;
+    }
+    section.Menu>div.menuRight>ul>li>a{
+        color: whitesmoke;
+        display: block;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    label[for=open],label[for=close]{
+        position: absolute;
+        font-size: 40px;
+        padding: 20px;
+        color: #00a2e8;
+    }
+    input[name=model]{
+        display: none;
+    }
+    label[for=close]{
+        color: whitesmoke;
+        position: absolute;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        font-size: 15px;
+        margin: 20px;
+        font-family: "Comic Sans MS";
+    }
+    section.Menu>div.menuRight>ul>li:hover{
+        background-color: rgba(20, 36, 255, 0.21);
+    }
+    input#open:checked ~ section.Menu{
+        left: 0;
+    }
+}
+@media only screen and (max-width: 540px){
+    section.Menu{
+        width: 100%;
+        height: auto;
+        background-color: #00a2e8;
+        position: absolute;
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 3;
+    }
+    section.Menu>div.menuLeft{
+        border-bottom: 3px solid rgba(245, 245, 245, 0.57);
+        text-align: center;
+    }
+    section.Menu>div.menuLeft>div{
+        color: whitesmoke;
+        padding: 20px;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    section.Menu>div.menuLeft>div>img{
+        vertical-align: sub;
+    }
+    section.Menu>div.menuRight{
+        text-align: center;
+        height: inherit;
+    }
+    section.Menu>div.menuRight>ul>li{
+        line-height: 50px;
+        list-style: none;
+        border-bottom: 1px solid rgba(245, 245, 245, 0.47);
+        transition: all 300ms linear;
+    }
+    section.Menu>div.menuRight>ul>li>a{
+        color: whitesmoke;
+        font-size: 14px;
+        font-family: "OpenSans Light";
+    }
+    label[for=open],label[for=close]{
+        position: absolute;
+        font-size: 40px;
+        padding: 20px;
+        color: #00a2e8;
+    }
+    input[name=model]{
+        display: none;
+    }
+    label[for=close]{
+        color: whitesmoke;
+        position: absolute;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        font-size: 15px;
+        margin: 20px;
+        font-family: "Comic Sans MS";
+    }
+    section.Menu>div.menuRight>ul>li:hover{
+        background-color: rgba(20, 36, 255, 0.21);
+    }
+    input#open:checked ~ section.Menu{
+        left: 0;
+    }
+}
+/*End of Menu*/
+/*Start of navBar*/
+@media only screen and (min-width: 1200px){
+    section.navBar{
+        width: 100%;
+        height: 90px;
+        display: flex;
+    }
+    section.navBar>div.navBarLeft{
+        width: 40%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.navBar>div.navBarLeft>h1{
+        text-align: center;
+        font-size: 24px;
+        color: black;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarLeft>h1::first-letter{
+        color: #00a2e8;
+    }
+    section.navBar>div.navBarCenter{
+        width: 40%;
+        height: inherit;
+        }
+    section.navBar>div.navBarCenter>ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    section.navBar>div.navBarCenter>ul>li{
+        list-style: none;
+        box-sizing: border-box;
+        line-height: 90px;
+    }
+    section.navBar>div.navBarCenter>ul>li>a{
+        color: whitesmoke;
+        font-size: 14px;
+        font-family: "Arial Black";
+        color: black;
+        transition: all 300ms linear;
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarRight{
+        width: 20%;
+        height: 90px;
+    }
+    section.navBar>div.navBarRight>h1 , section.navBar>div.navBarRight>h1>span {
+        display: flex;
+        justify-content: center;
+        line-height: 90px;
+    }
+    section.navBar>div.navBarCenter>ul>li:hover>a{
+        color: #00a2e8;
+    }
+    section.navEzafe{
+        display: none;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    section.navBar{
+        width: 100%;
+        height: 90px;
+        display: flex;
+    }
+    section.navBar>div.navBarLeft{
+        width: 30%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.navBar>div.navBarLeft>h1{
+        text-align: center;
+        font-size: 24px;
+        color: black;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarLeft>h1::first-letter{
+        color: #00a2e8;
+    }
+    section.navBar>div.navBarCenter{
+        width: 50%;
+        height: inherit;
+    }
+    section.navBar>div.navBarCenter>ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    section.navBar>div.navBarCenter>ul>li{
+        list-style: none;
+        box-sizing: border-box;
+        line-height: 90px;
+    }
+    section.navBar>div.navBarCenter>ul>li>a{
+        color: whitesmoke;
+        font-size: 14px;
+        font-family: "Arial Black";
+        color: black;
+        transition: all 300ms linear;
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarRight{
+        width: 20%;
+        height: 90px;
+    }
+    section.navBar>div.navBarRight>h1 , section.navBar>div.navBarRight>h1>span {
+        display: flex;
+        justify-content: center;
+        line-height: 90px;
+    }
+    section.navBar>div.navBarCenter>ul>li:hover>a{
+        color: #00a2e8;
+    }
+    section.navEzafe{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    section.navBar{
+        width: 100%;
+        height: 90px;
+        display: flex;
+    }
+    section.navBar>div.navBarLeft{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.navBar>div.navBarLeft>h1{
+        text-align: center;
+        font-size: 24px;
+        color: black;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarLeft>h1::first-letter{
+        color: #00a2e8;
+    }
+    section.navBar>div.navBarCenter{
+        width: 100%;
+        height: 40px;
+        background-color: whitesmoke;
+        display: none;
+    }
+    section.navBar>div.navBarCenter>ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    section.navBar>div.navBarCenter>ul>li{
+        list-style: none;
+        box-sizing: border-box;
+    }
+    section.navBar>div.navBarCenter>ul>li>a{
+        color: whitesmoke;
+        font-size: 14px;
+        font-family: "Arial Black";
+        color: black;
+        transition: all 300ms linear;
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarRight{
+        width: 50%;
+        height: 90px;
+    }
+    section.navBar>div.navBarRight>h1 , section.navBar>div.navBarRight>h1>span {
+        display: flex;
+        justify-content: center;
+        line-height: 90px;
+    }
+    section.navBar>div.navBarCenter>ul>li:hover>a{
+        color: #00a2e8;
+    }
+    section.navEzafe{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        margin-top: 375px;
+        background-color: white;
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 3;
+    }
+    section.navEzafe>ul>li{
+        text-align: center;
+        line-height: 50px;
+        border-bottom: 1px solid #00a2e8;
+    }
+    section.navEzafe>ul>li>a{
+        color: black;
+        display: block;
+        text-transform: uppercase;
+        transition: all 300ms linear;
+        font-family: "OpenSans Light";
+    }
+    input#open:checked ~ section.navEzafe{
+        left: 0;
+    }
+    section.navEzafe>ul>li>a:hover{
+        background-color: rgba(0, 162, 232, 0.23);
+        color: #00a2e8;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px){
+    section.navBar{
+        width: 100%;
+        height: 90px;
+        display: flex;
+    }
+    section.navBar>div.navBarLeft{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.navBar>div.navBarLeft>h1{
+        text-align: center;
+        font-size: 24px;
+        color: black;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarLeft>h1::first-letter{
+        color: #00a2e8;
+    }
+    section.navBar>div.navBarCenter{
+        width: 40%;
+        height: inherit;
+        display: none;
+    }
+    section.navBar>div.navBarCenter>ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    section.navBar>div.navBarCenter>ul>li{
+        list-style: none;
+        box-sizing: border-box;
+        line-height: 90px;
+    }
+    section.navBar>div.navBarCenter>ul>li>a{
+        color: whitesmoke;
+        font-size: 14px;
+        font-family: "Arial Black";
+        color: black;
+        transition: all 300ms linear;
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarRight{
+        width: 50%;
+        height: 90px;
+    }
+    section.navBar>div.navBarRight>h1 , section.navBar>div.navBarRight>h1>span {
+        display: flex;
+        justify-content: center;
+        line-height: 90px;
+    }
+    section.navBar>div.navBarCenter>ul>li:hover>a{
+        color: #00a2e8;
+    }
+    section.navEzafe{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        margin-top: 375px;
+        background-color: white;
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 3;
+    }
+    section.navEzafe>ul>li{
+        text-align: center;
+        line-height: 50px;
+        border-bottom: 1px solid #00a2e8;
+    }
+    section.navEzafe>ul>li>a{
+        color: black;
+        display: block;
+        text-transform: uppercase;
+        transition: all 300ms linear;
+        font-family: "OpenSans Light";
+    }
+    input#open:checked ~ section.navEzafe{
+        left: 0;
+    }
+    section.navEzafe>ul>li>a:hover{
+        background-color: rgba(0, 162, 232, 0.23);
+        color: #00a2e8;
+    }
+}
+@media only screen and (max-width: 540px){
+    section.navBar{
+        width: 100%;
+        height: 90px;
+        display: flex;
+    }
+    section.navBar>div.navBarLeft{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.navBar>div.navBarLeft>h1{
+        text-align: center;
+        font-size: 24px;
+        color: black;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarLeft>h1::first-letter{
+        color: #00a2e8;
+    }
+    section.navBar>div.navBarCenter{
+        width: 40%;
+        height: inherit;
+        display: none;
+    }
+    section.navBar>div.navBarCenter>ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    section.navBar>div.navBarCenter>ul>li{
+        list-style: none;
+        box-sizing: border-box;
+        line-height: 90px;
+    }
+    section.navBar>div.navBarCenter>ul>li>a{
+        color: whitesmoke;
+        font-size: 14px;
+        font-family: "Arial Black";
+        color: black;
+        transition: all 300ms linear;
+        text-transform: uppercase;
+    }
+    section.navBar>div.navBarRight{
+        width: 50%;
+        height: 90px;
+    }
+    section.navBar>div.navBarRight>h1 , section.navBar>div.navBarRight>h1>span {
+        display: flex;
+        justify-content: center;
+        line-height: 90px;
+    }
+    section.navBar>div.navBarCenter>ul>li:hover>a{
+        color: #00a2e8;
+    }
+    section.navEzafe{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        margin-top: 375px;
+        background-color: white;
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 4;
+    }
+    section.navEzafe>ul>li{
+        text-align: center;
+        line-height: 50px;
+        border-bottom: 1px solid #00a2e8;
+    }
+    section.navEzafe>ul>li>a{
+        color: black;
+        display: block;
+        text-transform: uppercase;
+        transition: all 300ms linear;
+        font-family: "OpenSans Light";
+    }
+    input#open:checked ~ section.navEzafe{
+        left: 0;
+    }
+    section.navEzafe>ul>li>a:hover{
+        background-color: rgba(0, 162, 232, 0.23);
+        color: #00a2e8;
+    }
+}
+/*End of navBar*/

@@ -1,0 +1,163 @@
+@media only screen and (min-width: 1200px){
+section.about{
+    width: 100%;
+    height: 580px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section.about>h1{
+    font-size: 36px;
+    font-family: "Roboto Light";
+    text-transform: uppercase;
+    position: absolute;
+    top: 10%;
+    color: black;
+}
+section.about>h1>span{
+    color: #00a2e8;
+}
+section.about>div{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+section.about>div>span{
+    font-size: 60px;
+    color: gray;
+    transition: all 300ms linear;
+}
+section.about>div>p{
+    font-size: 14px;
+    font-family: "OpenSans Light";
+    text-align: center;
+}
+section.about>div>h1{
+    text-transform: uppercase;
+    font-family: "OpenSans Light";
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 300ms linear;
+    text-align: center;
+}
+section.about>div:hover>span{
+    color: #00a2e8;
+}
+section.about>div:hover>h1{
+    color: #00a2e8;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    section.about{
+        width: 100%;
+        height: 580px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.about>h1{
+        font-size: 36px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        position: absolute;
+        top: 10%;
+        color: black;
+    }
+    section.about>h1>span{
+        color: #00a2e8;
+    }
+    section.about>div{
+        width: 250px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    section.about>div>span{
+        font-size: 60px;
+        color: gray;
+        transition: all 300ms linear;
+    }
+    section.about>div>p{
+        font-size: 14px;
+        font-family: "OpenSans Light";
+        text-align: center;
+    }
+    section.about>div>h1{
+        text-transform: uppercase;
+        font-family: "OpenSans Light";
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+        text-align: center;
+    }
+    section.about>div:hover>span{
+        color: #00a2e8;
+    }
+    section.about>div:hover>h1{
+        color: #00a2e8;
+    }
+}
+@media only screen and (max-width: 768px){
+    section.about{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    section.about>h1{
+        font-size: 36px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        display: block;
+        color: black;
+        text-align: center;
+        margin: 30px;
+    }
+    section.about>h1>span{
+        color: #00a2e8;
+    }
+    section.about>div{
+        width: 50%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+        flex: 1 1 50%;
+    }
+    section.about>div>span{
+        font-size: 60px;
+        color: gray;
+        transition: all 300ms linear;
+    }
+    section.about>div>p{
+        font-size: 14px;
+        font-family: "OpenSans Light";
+        text-align: center;
+    }
+    section.about>div>h1{
+        text-transform: uppercase;
+        font-family: "OpenSans Light";
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+        text-align: center;
+    }
+    section.about>div:hover>span{
+        color: #00a2e8;
+    }
+    section.about>div:hover>h1{
+        color: #00a2e8;
+    }
+}
