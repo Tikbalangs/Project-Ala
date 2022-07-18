@@ -674,3 +674,3637 @@
     }
 }
 /*End of navBar*/
+/* Swiper */
+@media only screen and (min-width: 1200px) {
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    div.swiper-slide>img{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+        filter: brightness(50%);
+    }
+    span.swiper-pagination-bullet{
+        width: 15px;
+        height: 15px;
+        border: 3px solid #00a2e8;
+    }
+    div.swiper-slide>h1{
+        position: absolute;
+        font-size: 56px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        line-height: 150px;
+        bottom: 50%;
+        color: whitesmoke;
+    }
+    div.swiper-slide>h1>span{
+        color: #00a2e8;
+    }
+    div.swiper-slide>p{
+        position: absolute;
+        font-size: 24px;
+        font-family: Arial;
+        top: 50%;
+        width: 50%;
+        color: whitesmoke;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    div.swiper-slide>img{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+        filter: brightness(50%);
+    }
+    span.swiper-pagination-bullet{
+        width: 15px;
+        height: 15px;
+        border: 3px solid #00a2e8;
+    }
+    div.swiper-slide>h1{
+        position: absolute;
+        font-size: 56px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        line-height: 150px;
+        bottom: 50%;
+        color: whitesmoke;
+    }
+    div.swiper-slide>h1>span{
+        color: #00a2e8;
+    }
+    div.swiper-slide>p{
+        position: absolute;
+        font-size: 24px;
+        font-family: Arial;
+        top: 50%;
+        width: 50%;
+        color: whitesmoke;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    div.swiper-slide>img{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+        filter: brightness(50%);
+    }
+    span.swiper-pagination-bullet{
+        width: 15px;
+        height: 15px;
+        border: 3px solid #00a2e8;
+    }
+    div.swiper-slide>h1{
+        position: absolute;
+        font-size: 56px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        line-height: 150px;
+        bottom: 50%;
+        color: whitesmoke;
+    }
+    div.swiper-slide>h1>span{
+        color: #00a2e8;
+    }
+    div.swiper-slide>p{
+        position: absolute;
+        font-size: 24px;
+        font-family: Arial;
+        top: 50%;
+        width: 50%;
+        color: whitesmoke;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    div.swiper-slide>img{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+        filter: brightness(50%);
+    }
+    span.swiper-pagination-bullet{
+        width: 15px;
+        height: 15px;
+        border: 3px solid #00a2e8;
+    }
+    div.swiper-slide>h1{
+        position: absolute;
+        font-size: 56px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        line-height: 100px;
+        bottom: 50%;
+        color: whitesmoke;
+    }
+    div.swiper-slide>h1>span{
+        color: #00a2e8;
+    }
+    div.swiper-slide>p{
+        position: absolute;
+        font-size: 20px;
+        font-family: Arial;
+        top: 50%;
+        width: 50%;
+        color: whitesmoke;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    div.swiper-slide>img{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+        filter: brightness(50%);
+    }
+    span.swiper-pagination-bullet{
+        width: 15px;
+        height: 15px;
+        border: 3px solid #00a2e8;
+    }
+    div.swiper-slide>h1{
+        position: absolute;
+        font-size: 50px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        line-height: 80px;
+        bottom: 50%;
+        color: whitesmoke;
+    }
+    div.swiper-slide>h1>span{
+        color: #00a2e8;
+    }
+    div.swiper-slide>p{
+        position: absolute;
+        font-size: 20px;
+        font-family: Arial;
+        top: 50%;
+        width: 70%;
+        color: whitesmoke;
+    }
+}
+/* End of Swiper */
+/* About */
+@media only screen and (min-width: 1200px){
+    section.about{
+        width: 100%;
+        height: 580px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.about>h1{
+        font-size: 36px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        position: absolute;
+        top: 10%;
+        color: black;
+    }
+    section.about>h1>span{
+        color: #00a2e8;
+    }
+    section.about>div{
+        width: 250px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    section.about>div>span{
+        font-size: 60px;
+        color: gray;
+        transition: all 300ms linear;
+    }
+    section.about>div>p{
+        font-size: 14px;
+        font-family: "OpenSans Light";
+        text-align: center;
+    }
+    section.about>div>h1{
+        text-transform: uppercase;
+        font-family: "OpenSans Light";
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+        text-align: center;
+    }
+    section.about>div:hover>span{
+        color: #00a2e8;
+    }
+    section.about>div:hover>h1{
+        color: #00a2e8;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    section.about{
+        width: 100%;
+        height: 580px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.about>h1{
+        font-size: 36px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        position: absolute;
+        color: black;
+        top: 10%;
+    }
+    section.about>h1>span{
+        color: #00a2e8;
+    }
+    section.about>div{
+        width: 250px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    section.about>div>span{
+        font-size: 60px;
+        color: gray;
+        transition: all 300ms linear;
+    }
+    section.about>div>p{
+        font-size: 14px;
+        font-family: "OpenSans Light";
+        text-align: center;
+    }
+    section.about>div>h1{
+        text-transform: uppercase;
+        font-family: "OpenSans Light";
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+        text-align: center;
+    }
+    section.about>div:hover>span{
+        color: #00a2e8;
+    }
+    section.about>div:hover>h1{
+        color: #00a2e8;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    section.about{
+        width: 100%;
+        height: 580px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.about>h1{
+        font-size: 36px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        position: absolute;
+        top: 10%;
+        color: black;
+    }
+    section.about>h1>span{
+        color: #00a2e8;
+    }
+    section.about>div{
+        width: 250px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    section.about>div>span{
+        font-size: 60px;
+        color: gray;
+        transition: all 300ms linear;
+    }
+    section.about>div>p{
+        font-size: 14px;
+        font-family: "OpenSans Light";
+        text-align: center;
+    }
+    section.about>div>h1{
+        text-transform: uppercase;
+        font-family: "OpenSans Light";
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+        text-align: center;
+    }
+    section.about>div:hover>span{
+        color: #00a2e8;
+    }
+    section.about>div:hover>h1{
+        color: #00a2e8;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px){
+    section.about{
+        width: 100%;
+        height: fit-content;
+        position: static;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    section.about>h1{
+        font-size: 36px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        display: block;
+        color: black;
+        text-align: center;
+        margin: 30px;
+    }
+    section.about>h1>span{
+        color: #00a2e8;
+    }
+    section.about>div{
+        width: 50%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+        flex: 1 1 50%;
+    }
+    section.about>div>span{
+        font-size: 60px;
+        color: gray;
+        transition: all 300ms linear;
+    }
+    section.about>div>p{
+        font-size: 14px;
+        font-family: "OpenSans Light";
+        text-align: center;
+    }
+    section.about>div>h1{
+        text-transform: uppercase;
+        font-family: "OpenSans Light";
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+        text-align: center;
+    }
+    section.about>div:hover>span{
+        color: #00a2e8;
+    }
+    section.about>div:hover>h1{
+        color: #00a2e8;
+    }
+}
+@media only screen and (max-width: 540px){
+    section.about{
+        width: 100%;
+        height: fit-content;
+        position: static;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    section.about>h1{
+        font-size: 36px;
+        font-family: "Roboto Light";
+        text-transform: uppercase;
+        display: block;
+        color: black;
+        text-align: center;
+        margin: 30px;
+    }
+    section.about>h1>span{
+        color: #00a2e8;
+    }
+    section.about>div{
+        width: 50%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+        flex: 1 1 50%;
+    }
+    section.about>div>span{
+        font-size: 60px;
+        color: gray;
+        transition: all 300ms linear;
+    }
+    section.about>div>p{
+        font-size: 14px;
+        font-family: "OpenSans Light";
+        text-align: center;
+    }
+    section.about>div>h1{
+        text-transform: uppercase;
+        font-family: "OpenSans Light";
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+        text-align: center;
+    }
+    section.about>div:hover>span{
+        color: #00a2e8;
+    }
+    section.about>div:hover>h1{
+        color: #00a2e8;
+    }
+}
+/* End of About */
+/* New collection */
+@media only screen and (min-width: 1200px) {
+    section.new{
+        width: 100%;
+        height: 660px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.new>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    section.new>h1>span{
+        color: #00a2e8;
+    }
+    section.new>img{
+        width: 100%;
+        height: inherit;
+        position: absolute;
+        z-index: -1;
+        filter: brightness(50%);
+    }
+    section.new>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.new>div.pro>div{
+        width: 260px;
+        height: 320px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    section.new>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.new>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.new>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.new>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.new>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.new>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 990px){
+    section.new{
+        width: 100%;
+        height: 780px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*position: static;*/
+        top: 1500px;
+    }
+    section.new>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    section.new>h1>span{
+        color: #00a2e8;
+    }
+    section.new>img{
+        width: 100%;
+        height: inherit;
+        position: absolute;
+        z-index: -1;
+        filter: brightness(50%);
+    }
+    section.new>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.new>div.pro>div{
+        width: 260px;
+        height: 320px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    section.new>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.new>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.new>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.new>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.new>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.new>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+@media only screen and (max-width: 990px) and (min-width: 768px){
+    section.new{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        top: 1500px;
+    }
+    section.new>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    section.new>h1>span{
+        color: #00a2e8;
+    }
+    section.new>img{
+        width: 100%;
+        height: inherit;
+        position: absolute;
+        z-index: -1;
+        filter: brightness(50%);
+    }
+    section.new>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.new>div.pro>div{
+        width: 260px;
+        height: 320px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    section.new>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.new>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.new>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.new>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.new>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.new>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 540px){
+    section.new{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        top: 2200px;
+    }
+    section.new>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    section.new>h1>span{
+        color: #00a2e8;
+    }
+    section.new>img{
+        width: 100%;
+        height: inherit;
+        position: absolute;
+        z-index: -1;
+        filter: brightness(50%);
+    }
+    section.new>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.new>div.pro>div{
+        width: 260px;
+        height: 320px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    section.new>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.new>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.new>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.new>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.new>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.new>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+@media only screen and (max-width: 540px){
+    section.new{
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        top: 2400px;
+    }
+    section.new>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    section.new>h1>span{
+        color: #00a2e8;
+    }
+    section.new>img{
+        width: 100%;
+        height: inherit;
+        position: absolute;
+        z-index: -1;
+        filter: brightness(50%);
+    }
+    section.new>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.new>div.pro>div{
+        width: 260px;
+        height: 320px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    section.new>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.new>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.new>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.new>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.new>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.new>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.new>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.new>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+/* End of New collection */
+/* Sale */
+@media only screen and (min-width: 1200px) {
+    section.Sale{
+        width: 100%;
+        height: 300px;
+        background-color: #00a2e8;
+        position: static;
+        top: 1950px;
+    }
+    section.Sale>div>h1{
+        font-size: 60px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 100px;
+        padding-top: 50px;
+    }
+    section.Sale>div>h2{
+        font-size: 40px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 80px;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    section.Sale{
+        width: 100%;
+        height: 300px;
+        background-color: #00a2e8;
+        position: static;
+        top: 2400px;
+    }
+    section.Sale>div>h1{
+        font-size: 60px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 100px;
+        padding-top: 50px;
+    }
+    section.Sale>div>h2{
+        font-size: 40px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 80px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    section.Sale{
+        width: 100%;
+        height: 300px;
+        background-color: #00a2e8;
+        position: static;
+        top: 2400px;
+    }
+    section.Sale>div>h1{
+        font-size: 60px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 100px;
+        padding-top: 50px;
+    }
+    section.Sale>div>h2{
+        font-size: 40px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 80px;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+    section.Sale{
+        width: 100%;
+        height: 350px;
+        background-color: #00a2e8;
+        position: static;
+        top: 3000px;
+    }
+    section.Sale>div>h1{
+        font-size: 60px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 100px;
+        padding-top: 50px;
+    }
+    section.Sale>div>h2{
+        font-size: 40px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 80px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    section.Sale{
+        width: 100%;
+        height: 400px;
+        background-color: #00a2e8;
+        position: static;
+        top: 3480px;
+    }
+    section.Sale>div>h1{
+        font-size: 60px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 100px;
+        padding-top: 50px;
+    }
+    section.Sale>div>h2{
+        font-size: 40px;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 80px;
+    }
+}
+/* End of Sale */
+/* New Products */
+@media only screen and (min-width: 1200px) {
+    section.newProducts{
+        width: 100%;
+        height: 980px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/57443-O961PA-379.png");
+        background-size: cover;
+    }
+    section.newProducts>div.HP>h1{
+        width: 100%;
+        font-size: 48px;
+        text-align: center;
+        color: whitesmoke;
+        margin: 120px 0 ;
+        text-transform: capitalize;
+        font-family: "Arial Black";
+    }
+    section.newProducts>div.HP>h1>span{
+        color: #00a2e8;
+    }
+    section.newProducts>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.newProducts>div.pro>div{
+        width: 370px;
+        height: 460px;
+        background-color: white;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    section.newProducts>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.newProducts>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.newProducts>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    section.newProducts{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/57443-O961PA-379.png");
+        background-position: center center, center center ;
+        background-size: cover;
+    }
+    section.newProducts>div.HP{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    section.newProducts>div.HP>h1{
+        width: 100%;
+        font-size: 48px;
+        text-align: center;
+        color: whitesmoke;
+        margin: 120px 0 ;
+        text-transform: capitalize;
+        font-family: "Arial Black";
+    }
+    section.newProducts>div.HP>h1>span{
+        color: #00a2e8;
+    }
+    section.newProducts>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.newProducts>div.pro>div{
+        width: 370px;
+        height: 460px;
+        background-color: white;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    section.newProducts>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.newProducts>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.newProducts>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    section.newProducts{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/57443-O961PA-379.png");
+        background-position: center center, center center ;
+        background-size: cover;
+    }
+    section.newProducts>div.HP{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    section.newProducts>div.HP>h1{
+        width: 100%;
+        font-size: 48px;
+        text-align: center;
+        color: whitesmoke;
+        margin: 120px 0 ;
+        text-transform: capitalize;
+        font-family: "Arial Black";
+    }
+    section.newProducts>div.HP>h1>span{
+        color: #00a2e8;
+    }
+    section.newProducts>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.newProducts>div.pro>div{
+        width: 370px;
+        height: 460px;
+        background-color: white;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    section.newProducts>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.newProducts>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.newProducts>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+    section.newProducts{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/57443-O961PA-379.png");
+        background-position: center center, center center ;
+        background-size: cover;
+    }
+    section.newProducts>div.HP{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    section.newProducts>div.HP>h1{
+        width: 100%;
+        font-size: 48px;
+        text-align: center;
+        color: whitesmoke;
+        margin: 120px 0 ;
+        text-transform: capitalize;
+        font-family: "Arial Black";
+    }
+    section.newProducts>div.HP>h1>span{
+        color: #00a2e8;
+    }
+    section.newProducts>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.newProducts>div.pro>div{
+        width: 370px;
+        height: 460px;
+        background-color: white;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    section.newProducts>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.newProducts>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.newProducts>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+@media only screen and (max-width: 540px) {
+    section.newProducts{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/57443-O961PA-379.png");
+        background-position: center center, center center ;
+        background-size: cover;
+    }
+    section.newProducts>div.HP{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    section.newProducts>div.HP>h1{
+        width: 100%;
+        font-size: 48px;
+        text-align: center;
+        color: whitesmoke;
+        margin: 120px 0 ;
+        text-transform: capitalize;
+        font-family: "Arial Black";
+    }
+    section.newProducts>div.HP>h1>span{
+        color: #00a2e8;
+    }
+    section.newProducts>div.pro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.newProducts>div.pro>div{
+        width: 370px;
+        height: 460px;
+        background-color: white;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    section.newProducts>div.pro>div>h1{
+        width: inherit;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color:#35312e;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        line-height: 40px;
+        text-indent: 10px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>h2{
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        font-family: "Arial";
+        text-transform: uppercase;
+        background-color: #948a85;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 40px;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>h1{
+        background-color: #00a2e8;
+    }
+    section.newProducts>div.pro>div:hover>h2{
+        background-color: #86c3dd;
+    }
+    section.newProducts>div.pro>div>div.greyP{
+        width: 90%;
+        height: 80%;
+        background-color: #7a716d;
+        position: absolute;
+        margin: 8px;
+        margin-bottom: 42px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div:hover>div.greyP{
+        opacity: 1;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid whitesmoke;
+        box-sizing: border-box;
+        padding-top: 20px;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a{
+        width: inherit;
+        height: inherit;
+        display: block;
+        text-align: center;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div>a>img{
+        width: auto;
+        height: 28px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy{
+        width: 170px;
+        height: 50px;
+        background-color: #00a2e8;
+        transition: all 300ms linear;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div{
+        font-size: 28px;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy>div>a{
+        font-size: 24px;
+        display: block;
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+        line-height: 40px;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.icons>div:hover{
+        background-color: #00a2e8;
+        border: none;
+    }
+    section.newProducts>div.pro>div>div.greyP>div.buy:hover{
+        background-color: #35312e;
+    }
+}
+/* End of New Products */
+/* Customer's Review */
+@media only screen and (min-width: 1200px) {
+    section.customerReview{
+        width: 100%;
+        height: 950px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section.customerReview>div{
+        width: 100%;
+        height: 20%;
+    }
+    section.customerReview>div>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 48px;
+        line-height: 300px;
+        text-align: center;
+        color: #736b66;
+    }
+    section.customerReview>div>h1>span{
+        color: #00a2e8;
+    }
+    section.customerReview>div.review{
+        width: 100%;
+        height: 80%;
+        display: flex;
+    }
+    section.customerReview>div.review>div{
+        width: 33%;
+        height: 730px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.customerReview>div.review>div>div.circle{
+        width: 225px;
+        height: 225px;
+        background-color: #7a716d;
+        border-radius: 225px;
+        margin: 0 auto;
+        transition: all 300ms linear;
+    }
+    section.customerReview>div.review>div>p{
+        width: 80%;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+        color: #7a716d;
+        font-family: "Arial";
+        font-size: 18px;
+    }
+    section.customerReview>div.review>div>div.circle:hover{
+        background-color: #00a2e8;
+    }
+    section.customerReview>div.review>div>h2{
+        color: #00a2e8;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    section.customerReview>div.review>div>h3{
+        color: #7a716d;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 14px;
+    }
+    section.customerReview>div.review>div>div.stars{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    section.customerReview>div.review>div>div.stars>div{
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        background-color: #00a2e8;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+    section.customerReview>div.review>div>div.stars>span>div{
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        margin: 7px;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    section.customerReview{
+        width: 100%;
+        height: 950px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    section.customerReview>div{
+        width: 100%;
+        height: 20%;
+    }
+    section.customerReview>div>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 48px;
+        line-height: 200px;
+        text-align: center;
+        color: #736b66;
+    }
+    section.customerReview>div>h1>span{
+        color: #00a2e8;
+    }
+    section.customerReview>div.review{
+        width: 100%;
+        height: 80%;
+        display: flex;
+    }
+    section.customerReview>div.review>div{
+        width: 33%;
+        height: 730px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.customerReview>div.review>div>div.circle{
+        width: 225px;
+        height: 225px;
+        background-color: #7a716d;
+        border-radius: 225px;
+        margin: 0 auto;
+        transition: all 300ms linear;
+    }
+    section.customerReview>div.review>div>p{
+        width: 80%;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+        color: #7a716d;
+        font-family: "Arial";
+        font-size: 18px;
+    }
+    section.customerReview>div.review>div>div.circle:hover{
+        background-color: #00a2e8;
+    }
+    section.customerReview>div.review>div>h2{
+        color: #00a2e8;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    section.customerReview>div.review>div>h3{
+        color: #7a716d;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 14px;
+    }
+    section.customerReview>div.review>div>div.stars{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    section.customerReview>div.review>div>div.stars>div{
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        background-color: #00a2e8;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+    section.customerReview>div.review>div>div.stars>span>div{
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        margin: 7px;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    section.customerReview{
+        width: 100%;
+        height: 950px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section.customerReview>div{
+        width: 100%;
+        height: 20%;
+    }
+    section.customerReview>div>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 48px;
+        line-height: 200px;
+        text-align: center;
+        color: #736b66;
+    }
+    section.customerReview>div>h1>span{
+        color: #00a2e8;
+    }
+    section.customerReview>div.review{
+        width: 100%;
+        height: 80%;
+        display: flex;
+    }
+    section.customerReview>div.review>div{
+        width: 33%;
+        height: 730px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.customerReview>div.review>div>div.circle{
+        width: 225px;
+        height: 225px;
+        background-color: #7a716d;
+        border-radius: 225px;
+        margin: 0 auto;
+        transition: all 300ms linear;
+    }
+    section.customerReview>div.review>div>p{
+        width: 80%;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+        color: #7a716d;
+        font-family: "Arial";
+        font-size: 18px;
+    }
+    section.customerReview>div.review>div>div.circle:hover{
+        background-color: #00a2e8;
+    }
+    section.customerReview>div.review>div>h2{
+        color: #00a2e8;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    section.customerReview>div.review>div>h3{
+        color: #7a716d;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 14px;
+    }
+    section.customerReview>div.review>div>div.stars{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    section.customerReview>div.review>div>div.stars>div{
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        background-color: #00a2e8;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+    section.customerReview>div.review>div>div.stars>span>div{
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        margin: 7px;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+    section.customerReview{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section.customerReview>div{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.customerReview>div>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 44px;
+        line-height: 300px;
+        text-align: center;
+        color: #736b66;
+    }
+    section.customerReview>div>h1>span{
+        color: #00a2e8;
+    }
+    section.customerReview>div.review{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section.customerReview>div.review>div{
+        width: 400px;
+        height: 730px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.customerReview>div.review>div>div.circle{
+        width: 225px;
+        height: 225px;
+        background-color: #7a716d;
+        border-radius: 225px;
+        margin: 0 auto;
+        transition: all 300ms linear;
+    }
+    section.customerReview>div.review>div>p{
+        width: 80%;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+        color: #7a716d;
+        font-family: "Arial";
+        font-size: 18px;
+    }
+    section.customerReview>div.review>div>div.circle:hover{
+        background-color: #00a2e8;
+    }
+    section.customerReview>div.review>div>h2{
+        color: #00a2e8;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    section.customerReview>div.review>div>h3{
+        color: #7a716d;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 14px;
+    }
+    section.customerReview>div.review>div>div.stars{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    section.customerReview>div.review>div>div.stars>div{
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        background-color: #00a2e8;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+    section.customerReview>div.review>div>div.stars>span>div{
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        margin: 7px;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    section.customerReview{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section.customerReview>div{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.customerReview>div>h1{
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        font-size: 44px;
+        line-height: 100px;
+        text-align: center;
+        margin-top: 30px;
+        color: #736b66;
+    }
+    section.customerReview>div>h1>span{
+        color: #00a2e8;
+    }
+    section.customerReview>div.review{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section.customerReview>div.review>div{
+        width: 400px;
+        height: 730px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.customerReview>div.review>div>div.circle{
+        width: 225px;
+        height: 225px;
+        background-color: #7a716d;
+        border-radius: 225px;
+        margin: 0 auto;
+        transition: all 300ms linear;
+    }
+    section.customerReview>div.review>div>p{
+        width: 80%;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+        color: #7a716d;
+        font-family: "Arial";
+        font-size: 18px;
+    }
+    section.customerReview>div.review>div>div.circle:hover{
+        background-color: #00a2e8;
+    }
+    section.customerReview>div.review>div>h2{
+        color: #00a2e8;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    section.customerReview>div.review>div>h3{
+        color: #7a716d;
+        text-align: center;
+        font-family: "OpenSans Light";
+        font-size: 14px;
+    }
+    section.customerReview>div.review>div>div.stars{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    section.customerReview>div.review>div>div.stars>div{
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        background-color: #00a2e8;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+    section.customerReview>div.review>div>div.stars>span>div{
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        margin: 7px;
+        border-radius: 25px;
+        border: solid black 1px;
+    }
+}
+/* End of Customer's Review */
+/* Email */
+@media only screen and (min-width: 1200px) {
+    section.email{
+        width: 100%;
+        height: 935px;
+        background-image: url("../Images/clothes.png");
+        background-color: #00a2e8;
+        display: flex;
+        flex-direction: column;
+    }
+    section.email>section.order{
+        width: 100%;
+        height: 635px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.email>section.order>h1{
+        color: #56504d;
+        font-size: 48px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.email>section.order>h1>span{
+        color: whitesmoke;
+    }
+    section.email>section.order>div>input[type=email]{
+        width: 540px;
+        height: 60px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        display: block;
+    }
+    section.email>section.order>input[type=submit]{
+        width: 300px;
+        height: 90px;
+        background-color: #7a716d;
+        color: whitesmoke;
+        font-size: 36px;
+        font-family: "Arial Black";
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.email>section.order>input[type=submit]:hover{
+        box-shadow: inset 3px 3px 25px whitesmoke;
+        color: #00a2e8;
+    }
+    section.email>section.ad{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    section.email>section.ad>h1{
+        color: whitesmoke;
+        font-size: 60px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 200px;
+    }
+    section.email>section.ad>h2{
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    section.email{
+        width: 100%;
+        height: 935px;
+        background-image: url("../Images/clothes.png");
+        background-color: #00a2e8;
+        display: flex;
+        flex-direction: column;
+    }
+    section.email>section.order{
+        width: 100%;
+        height: 635px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.email>section.order>h1{
+        color: #56504d;
+        font-size: 48px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.email>section.order>h1>span{
+        color: whitesmoke;
+    }
+    section.email>section.order>div>input[type=email]{
+        width: 540px;
+        height: 60px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        display: block;
+    }
+    section.email>section.order>input[type=submit]{
+        width: 300px;
+        height: 90px;
+        background-color: #7a716d;
+        color: whitesmoke;
+        font-size: 36px;
+        font-family: "Arial Black";
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.email>section.order>input[type=submit]:hover{
+        box-shadow: inset 3px 3px 25px whitesmoke;
+        color: #00a2e8;
+    }
+    section.email>section.ad{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    section.email>section.ad>h1{
+        color: whitesmoke;
+        font-size: 60px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 200px;
+    }
+    section.email>section.ad>h2{
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    section.email{
+        width: 100%;
+        height: 935px;
+        background-image: url("../Images/clothes.png");
+        background-color: #00a2e8;
+        display: flex;
+        flex-direction: column;
+    }
+    section.email>section.order{
+        width: 100%;
+        height: 635px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.email>section.order>h1{
+        color: #56504d;
+        font-size: 48px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.email>section.order>h1>span{
+        color: whitesmoke;
+    }
+    section.email>section.order>div>input[type=email]{
+        width: 540px;
+        height: 60px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        display: block;
+    }
+    section.email>section.order>input[type=submit]{
+        width: 300px;
+        height: 90px;
+        background-color: #7a716d;
+        color: whitesmoke;
+        font-size: 36px;
+        font-family: "Arial Black";
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.email>section.order>input[type=submit]:hover{
+        box-shadow: inset 3px 3px 25px whitesmoke;
+        color: #00a2e8;
+    }
+    section.email>section.ad{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    section.email>section.ad>h1{
+        color: whitesmoke;
+        font-size: 40px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 200px;
+    }
+    section.email>section.ad>h2{
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+    section.email{
+        width: 100%;
+        height: 935px;
+        background-image: url("../Images/clothes.png");
+        background-color: #00a2e8;
+        display: flex;
+        flex-direction: column;
+    }
+    section.email>section.order{
+        width: 100%;
+        height: 635px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.email>section.order>h1{
+        color: #56504d;
+        font-size: 40px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+    }
+    section.email>section.order>h1>span{
+        color: whitesmoke;
+    }
+    section.email>section.order>div>input[type=email]{
+        width: 400px;
+        height: 60px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        display: block;
+    }
+    section.email>section.order>input[type=submit]{
+        width: 300px;
+        height: 90px;
+        background-color: #7a716d;
+        color: whitesmoke;
+        font-size: 36px;
+        font-family: "Arial Black";
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.email>section.order>input[type=submit]:hover{
+        box-shadow: inset 3px 3px 25px whitesmoke;
+        color: #00a2e8;
+    }
+    section.email>section.ad{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    section.email>section.ad>h1{
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 200px;
+    }
+    section.email>section.ad>h2{
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 540px) {
+    section.email{
+        width: 100%;
+        height: 935px;
+        background-image: url("../Images/clothes.png");
+        background-color: #00a2e8;
+        display: flex;
+        flex-direction: column;
+    }
+    section.email>section.order{
+        width: 100%;
+        height: 635px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.email>section.order>h1{
+        color: #56504d;
+        font-size: 40px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+    }
+    section.email>section.order>h1>span{
+        color: whitesmoke;
+    }
+    section.email>section.order>div>input[type=email]{
+        width: 400px;
+        height: 60px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        display: block;
+    }
+    section.email>section.order>input[type=submit]{
+        width: 300px;
+        height: 90px;
+        background-color: #7a716d;
+        color: whitesmoke;
+        font-size: 36px;
+        font-family: "Arial Black";
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.email>section.order>input[type=submit]:hover{
+        box-shadow: inset 3px 3px 25px whitesmoke;
+        color: #00a2e8;
+    }
+    section.email>section.ad{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    section.email>section.ad>h1{
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 200px;
+    }
+    section.email>section.ad>h2{
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+/* End of Email */
+/* Footer */
+@media only screen and (min-width: 1200px) {
+    section.footer{
+        width: 100%;
+        height: 600px;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/world-map.png");
+        background-size: contain;
+        display: flex;
+        justify-content: space-around;
+    }
+    section.footer>section.hyape{
+        width: 400px;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.footer>section.hyape>div{
+        width: inherit;
+        height: 450px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+    section.footer>section.hyape>div>h1{
+        color: black;
+        font-size: 60px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.footer>section.hyape>div>h1>span{
+        color: #00a2e8;
+    }
+    section.footer>section.hyape>div>p{
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+    }
+    section.footer>section.hyape>div>p>span{
+        font-size: 30px;
+        line-height: 100px;
+    }
+    section.footer>section.hyape>div>div.icon>span{
+        color: whitesmoke;
+        margin: 5px;
+        font-size: 20px;
+        transition: all 300ms linear;
+    }
+    section.footer>section.hyape>div>div.icon>span:hover{
+        color: #00a2e8;
+        cursor: pointer;
+    }
+    section.footer>section.mail{
+        width: 500px;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.footer>section.mail>div.email{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.email>input[type=email]  , section.footer>section.mail>div.email>input[type=text] {
+        width: 180px;
+        height: 60px;
+        margin: 20px;
+    }
+    section.footer>section.mail>div.com{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.com>input[type=text]{
+        width: 400px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    section.footer>section.mail>div.send{
+        align-self: flex-end;
+        margin-right: 50px;
+    }
+    section.footer>section.mail>div.send>input[type=submit]{
+        width: 100px;
+        height: 40px;
+        background-color: #00a2e8;
+        border: 0;
+        color: whitesmoke;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.footer>section.mail>div.send>input[type=submit]:hover{
+        background-color: whitesmoke;
+        color: #00a2e8;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    section.footer{
+        width: 100%;
+        height: 600px;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/world-map.png");
+        background-size: contain;
+        display: flex;
+        justify-content: space-around;
+    }
+    section.footer>section.hyape{
+        width: 400px;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.footer>section.hyape>div{
+        width: inherit;
+        height: 450px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+    section.footer>section.hyape>div>h1{
+        color: black;
+        font-size: 60px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.footer>section.hyape>div>h1>span{
+        color: #00a2e8;
+    }
+    section.footer>section.hyape>div>p{
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+    }
+    section.footer>section.hyape>div>p>span{
+        font-size: 30px;
+        line-height: 100px;
+    }
+    section.footer>section.hyape>div>div.icon>span{
+        color: whitesmoke;
+        margin: 5px;
+        font-size: 20px;
+        transition: all 300ms linear;
+    }
+    section.footer>section.hyape>div>div.icon>span:hover{
+        color: #00a2e8;
+        cursor: pointer;
+    }
+    section.footer>section.mail{
+        width: 500px;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.footer>section.mail>div.email{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.email>input[type=email]  , section.footer>section.mail>div.email>input[type=text] {
+        width: 180px;
+        height: 60px;
+        margin: 20px;
+    }
+    section.footer>section.mail>div.com{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.com>input[type=text]{
+        width: 400px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    section.footer>section.mail>div.send{
+        align-self: flex-end;
+        margin-right: 50px;
+    }
+    section.footer>section.mail>div.send>input[type=submit]{
+        width: 100px;
+        height: 40px;
+        background-color: #00a2e8;
+        border: 0;
+        color: whitesmoke;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.footer>section.mail>div.send>input[type=submit]:hover{
+        background-color: whitesmoke;
+        color: #00a2e8;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    section.footer{
+        width: 100%;
+        height: 1200px;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/world-map.png");
+        background-size: contain;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    section.footer>section.hyape{
+        width: 400px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 50px ;
+    }
+    section.footer>section.hyape>div{
+        width: inherit;
+        height: 450px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+    section.footer>section.hyape>div>h1{
+        color: black;
+        font-size: 60px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.footer>section.hyape>div>h1>span{
+        color: #00a2e8;
+    }
+    section.footer>section.hyape>div>p{
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+    }
+    section.footer>section.hyape>div>p>span{
+        font-size: 30px;
+        line-height: 100px;
+    }
+    section.footer>section.hyape>div>div.icon>span{
+        color: whitesmoke;
+        margin: 5px;
+        font-size: 20px;
+        transition: all 300ms linear;
+    }
+    section.footer>section.hyape>div>div.icon>span:hover{
+        color: #00a2e8;
+        cursor: pointer;
+    }
+    section.footer>section.mail{
+        width: 500px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.footer>section.mail>div.email{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.email>input[type=email]  , section.footer>section.mail>div.email>input[type=text] {
+        width: 180px;
+        height: 60px;
+        margin: 20px;
+    }
+    section.footer>section.mail>div.com{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.com>input[type=text]{
+        width: 400px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    section.footer>section.mail>div.send{
+        align-self: flex-end;
+        margin-right: 50px;
+    }
+    section.footer>section.mail>div.send>input[type=submit]{
+        width: 100px;
+        height: 40px;
+        background-color: #00a2e8;
+        border: 0;
+        color: whitesmoke;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.footer>section.mail>div.send>input[type=submit]:hover{
+        background-color: whitesmoke;
+        color: #00a2e8;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+    section.footer{
+        width: 100%;
+        height: 1200px;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/world-map.png");
+        background-size: contain;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    section.footer>section.hyape{
+        width: 400px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 50px ;
+    }
+    section.footer>section.hyape>div{
+        width: inherit;
+        height: 450px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+    section.footer>section.hyape>div>h1{
+        color: black;
+        font-size: 60px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.footer>section.hyape>div>h1>span{
+        color: #00a2e8;
+    }
+    section.footer>section.hyape>div>p{
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+    }
+    section.footer>section.hyape>div>p>span{
+        font-size: 30px;
+        line-height: 100px;
+    }
+    section.footer>section.hyape>div>div.icon>span{
+        color: whitesmoke;
+        margin: 5px;
+        font-size: 20px;
+        transition: all 300ms linear;
+    }
+    section.footer>section.hyape>div>div.icon>span:hover{
+        color: #00a2e8;
+        cursor: pointer;
+    }
+    section.footer>section.mail{
+        width: 500px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.footer>section.mail>div.email{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.email>input[type=email]  , section.footer>section.mail>div.email>input[type=text] {
+        width: 180px;
+        height: 60px;
+        margin: 20px;
+    }
+    section.footer>section.mail>div.com{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.com>input[type=text]{
+        width: 400px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    section.footer>section.mail>div.send{
+        align-self: flex-end;
+        margin-right: 50px;
+    }
+    section.footer>section.mail>div.send>input[type=submit]{
+        width: 100px;
+        height: 40px;
+        background-color: #00a2e8;
+        border: 0;
+        color: whitesmoke;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.footer>section.mail>div.send>input[type=submit]:hover{
+        background-color: whitesmoke;
+        color: #00a2e8;
+    }
+}
+@media only screen and (max-width: 540px) {
+    section.footer{
+        width: 100%;
+        height: 1200px;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("../Images/world-map.png");
+        background-size: contain;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    section.footer>section.hyape{
+        width: 400px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 50px ;
+    }
+    section.footer>section.hyape>div{
+        width: inherit;
+        height: 450px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+    section.footer>section.hyape>div>h1{
+        color: black;
+        font-size: 60px;
+        font-family: "Arial Black";
+        text-transform: uppercase;
+    }
+    section.footer>section.hyape>div>h1>span{
+        color: #00a2e8;
+    }
+    section.footer>section.hyape>div>p{
+        color: whitesmoke;
+        font-family: "OpenSans Light";
+    }
+    section.footer>section.hyape>div>p>span{
+        font-size: 30px;
+        line-height: 100px;
+    }
+    section.footer>section.hyape>div>div.icon>span{
+        color: whitesmoke;
+        margin: 5px;
+        font-size: 20px;
+        transition: all 300ms linear;
+    }
+    section.footer>section.hyape>div>div.icon>span:hover{
+        color: #00a2e8;
+        cursor: pointer;
+    }
+    section.footer>section.mail{
+        width: 500px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.footer>section.mail>div.email{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.email>input[type=email]  , section.footer>section.mail>div.email>input[type=text] {
+        width: 180px;
+        height: 60px;
+        margin: 20px;
+    }
+    section.footer>section.mail>div.com{
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    section.footer>section.mail>div.com>input[type=text]{
+        width: 400px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    section.footer>section.mail>div.send{
+        align-self: flex-end;
+        margin-right: 50px;
+    }
+    section.footer>section.mail>div.send>input[type=submit]{
+        width: 100px;
+        height: 40px;
+        background-color: #00a2e8;
+        border: 0;
+        color: whitesmoke;
+        cursor: pointer;
+        transition: all 300ms linear;
+    }
+    section.footer>section.mail>div.send>input[type=submit]:hover{
+        background-color: whitesmoke;
+        color: #00a2e8;
+    }
+}
+/* End of Footer */
+/* Credit */
+section.Credit{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+section.Credit>h1{
+    color: whitesmoke;
+    font-family: "OpenSans Light";
+    font-size: 15px;
+    text-align: center;
+}

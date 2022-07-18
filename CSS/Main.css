@@ -1,8 +1,5 @@
 @import url(Setting.css);
 @import url(Menu.css);
-@import url(Swiper.css);
-@import url(About.css);
-@import url(Products.css);
 @font-face {
     font-family: "OpenSans Light";
     src: url("../Fonts/OpenSans-Light.ttf");
