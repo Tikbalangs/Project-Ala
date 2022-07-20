@@ -3057,7 +3057,6 @@
         height: 950px;
         display: flex;
         flex-wrap: wrap;
-        margin: 20px;
     }
     section.customerReview>div{
         width: 100%;
@@ -4248,7 +4247,7 @@
         cursor: pointer;
     }
     section.footer>section.mail{
-        width: 500px;
+        /*width: 500px;*/
         height: 600px;
         display: flex;
         flex-direction: column;
